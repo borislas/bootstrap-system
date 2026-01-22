@@ -16,6 +16,7 @@
 - name: Install flatpak apps
   community.general.flatpak:
     name: 
+    - md.obsidian.Obsidian
     - com.discordapp.Discord
     - org.gnome.gThumb
     - org.gimp.GIMP
@@ -29,6 +30,7 @@
     - org.signal.Signal
     - com.mattjakeman.ExtensionManager
     - com.github.maoschanz.drawing
+    - org.gtk.Gtk3theme.Adwaita-dark
   when: ansible_distribution != "openSUSE Tumbleweed" # not if rolling distrib
 
 - name: Force Gtk Adwaita Dark theme
