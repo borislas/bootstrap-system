@@ -16,11 +16,8 @@
 - name: Install flatpak apps
   community.general.flatpak:
     name: 
-    - org.mozilla.firefox
-    - com.valvesoftware.Steam
     - com.discordapp.Discord
     - org.gnome.gThumb
-    - org.darktable.Darktable
     - org.gimp.GIMP
     - org.remmina.Remmina
     - hu.irl.cameractrls
@@ -29,7 +26,7 @@
     - com.github.tchx84.Flatseal
     - com.github.zocker_160.SyncThingy
     - com.heroicgameslauncher.hgl
-    - org.signal.signal
+    - org.signal.Signal
     - com.mattjakeman.ExtensionManager
     - com.github.maoschanz.drawing
   when: ansible_distribution != "openSUSE Tumbleweed" # not if rolling distrib

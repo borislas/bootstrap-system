@@ -30,7 +30,6 @@
     - steam-devices
     - dbus-devel 
     - pkgconf-pkg-config
-    - ufraw
     - pipx
 
 - name: Fedora | AMD GPU packages
