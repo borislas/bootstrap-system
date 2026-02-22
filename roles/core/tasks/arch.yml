@@ -20,6 +20,7 @@
     - fzf
     - fd
     - bat
+    - tree
     # k8s
     - k9s
     - kubectl
