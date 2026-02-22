@@ -17,6 +17,8 @@
     - neovim
     - zsh
     - kitty
+    - fzf
+    - bat
     # k8s
     - k9s
     - kubectl

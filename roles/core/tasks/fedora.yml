@@ -31,6 +31,8 @@
     - dbus-devel 
     - pkgconf-pkg-config
     - pipx
+    - fzf
+    - bat
 
 - name: Fedora | AMD GPU packages
   become: yes

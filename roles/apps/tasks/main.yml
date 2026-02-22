@@ -30,6 +30,8 @@
     - org.signal.Signal
     - com.mattjakeman.ExtensionManager
     - com.github.maoschanz.drawing
+    - io.github.CyberTimon.RapidRAW
+
     - org.gtk.Gtk3theme.Adwaita-dark
   when: ansible_distribution != "openSUSE Tumbleweed" # not if rolling distrib
 
