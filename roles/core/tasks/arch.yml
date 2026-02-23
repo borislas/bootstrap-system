@@ -21,6 +21,7 @@
     - fd
     - bat
     - tree
+    - zellij
     # k8s
     - k9s
     - kubectl
